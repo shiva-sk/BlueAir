@@ -1,0 +1,153 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-28T07:37:18.031Z",
+        "line": 12,
+        "name": "selecting journey",
+        "description": "",
+        "id": "booking-an-one-way-journey;selecting-journey;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 37646596548,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user should be in Home page",
+            "match": {
+              "location": "Book.user_should_be_in_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2985824060,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "navigate to book a login page \"shiva27.rokz@gmail.com\", \"wsxft0987\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shiva27.rokz@gmail.com\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"wsxft0987\"",
+                  "offset": 56
+                }
+              ],
+              "location": "Book.navigate_to_book_a_login_page(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11700026831,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "providing journey deails",
+            "match": {
+              "location": "Book.providing_journey_deails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12085519439,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click Book Now",
+            "match": {
+              "location": "Book.click_Book_Now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3249880873,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Naviate to Flight Selectio Page",
+            "match": {
+              "location": "Book.naviate_to_Flight_Selectio_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-28T07:38:25.865Z",
+        "line": 14,
+        "name": "User should select Flight",
+        "description": "",
+        "id": "booking-an-one-way-journey;user-should-select-flight",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3779834059,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should see available flight",
+            "match": {
+              "location": "Book.user_should_see_available_flight()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 331097093,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "should select flight and types",
+            "match": {
+              "location": "Book.should_select_flight_and_types()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5432071464,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "continue the booking",
+            "match": {
+              "location": "Book.continue_the_booking()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 792854654,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "redirect to Extras page",
+            "match": {
+              "location": "Book.redirect_to_Extras_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Booking an one way journey",
+    "description": "",
+    "id": "booking-an-one-way-journey",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/FlightSearchPage.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-27T09:01:25.091Z",
+        "line": 12,
+        "name": "selecting journey",
+        "description": "",
+        "id": "booking-an-one-way-journey;selecting-journey;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 85704578177,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user should be in Home page",
+            "match": {
+              "location": "BookAFlight.user_should_be_in_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5569301153,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "navigate to book a login page \"shiva27.rokz@gmail.com\", \"wsxft0987\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shiva27.rokz@gmail.com\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"wsxft0987\"",
+                  "offset": 56
+                }
+              ],
+              "location": "BookAFlight.navigate_to_book_a_login_page(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14339080572,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "providing journey deails",
+            "match": {
+              "location": "BookAFlight.providing_journey_deails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9014931515,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click Book Now",
+            "match": {
+              "location": "BookAFlight.click_Book_Now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3960596087,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Naviate to Flight Selectio Page",
+            "match": {
+              "location": "BookAFlight.naviate_to_Flight_Selectio_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-27T09:03:24.039Z",
+        "line": 14,
+        "name": "User should select Flight",
+        "description": "",
+        "id": "booking-an-one-way-journey;user-should-select-flight",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2663972491,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should see available flight",
+            "match": {
+              "location": "BookAFlight.user_should_see_available_flight()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7449215646,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "should select flight and types",
+            "match": {
+              "location": "BookAFlight.should_select_flight_and_types()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10708514365,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "continue the booking",
+            "match": {
+              "location": "BookAFlight.continue_the_booking()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1692942,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "redirect to Extras page",
+            "match": {
+              "location": "BookAFlight.redirect_to_Extras_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Booking an one way journey",
+    "description": "",
+    "id": "booking-an-one-way-journey",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/FlightSearchPage.feature",
+    "tags": []
+  }
+]
